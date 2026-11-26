@@ -22,8 +22,8 @@ export function ContactSection() {
     {
       title: "Email",
       description: "Para propostas, consultoria e parcerias técnicas.",
-      value: "contato@genildoburgos.tech",
-      link: "mailto:contato@genildoburgos.tech",
+      value: "gnldburgos@gmail.com",
+      link: "mailto:gnldburgos@gmail.com",
       icon: <Mail className="h-5 w-5 text-emerald-600" />,
       color: "hover:border-emerald-500",
     },

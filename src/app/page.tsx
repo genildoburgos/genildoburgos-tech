@@ -6,6 +6,7 @@ import { TechStack } from "@/components/TechStack";
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
+import { FloatingAction } from "@/components/FloatingAction";
 
 // Revalidate once every hour for fresh GitHub statistics and repository updates
 export const revalidate = 3600;
@@ -30,6 +31,8 @@ export default async function HomePage() {
         totalForks={totalForks}
         publicRepos={user.public_repos}
       />
+
+      <FloatingAction />
     </div>
   );
 }

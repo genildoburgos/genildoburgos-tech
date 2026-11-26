@@ -1,4 +1,4 @@
-import { Terminal, Lightbulb, Compass, Award } from "lucide-react";
+import { Terminal, Lightbulb, Award } from "lucide-react";
 
 export function AboutSection() {
   return (
